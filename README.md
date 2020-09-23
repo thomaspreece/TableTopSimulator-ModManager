@@ -1,5 +1,5 @@
 # TTS Manager
-This program is designed to allow you to manage mods in TTS using ttsbackup and also search through a mod backup database and extract and install those mods to TTS too.
+This program is designed to allow you to manage mods in TTS using [ttsbackup](https://github.com/stefankendall/ttsbackup) and also search through a mod backup database and extract and install those mods to TTS too.
 
 ## Updating the Database
 This program uses [TTSModsArchive](https://drive.google.com/drive/folders/1iAuPj1tmKSwg55m6ubM-CboegOzz9G_N) on Google Drive to find and download mods.
@@ -61,7 +61,7 @@ yarn mod_download "767321684"
 ```
 
 # ttsbackup
-You can also use ttsbackup from this repo
+You can also use [ttsbackup](https://github.com/stefankendall/ttsbackup) from this repo
 
 ```
 yarn ttsbackup -h
