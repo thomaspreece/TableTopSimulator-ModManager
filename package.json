@@ -1,0 +1,20 @@
+{
+  "name": "ttsmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ttsbackup": "^0.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "mod_update": "wget -O ./mod_index.html https://drive.google.com/uc?id=1Bnxc7LGt4lcSWvnnbh1k5vy3E-khdC5O&authuser=0&export=download",
+    "mod_search": "./src/search.sh",
+    "mod_download": "./src/download.sh",
+    "mod_list": "./src/list.sh",
+    "ttsbackup": "ttsbackup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
